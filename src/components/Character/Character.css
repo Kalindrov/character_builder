@@ -1,0 +1,79 @@
+#name {
+    background: black;
+    opacity: 0.8;
+    text-align: left;
+    color: gold;
+    font-size: 4rem;
+    text-align: center;
+    text-shadow: 2px 2px black;
+    border: 2px solid gold;
+    border-radius: 10px;
+    margin-left: 2rem;
+    padding: 2rem;
+}
+
+#class {
+    font-size: 2rem;
+    text-align: left;
+    color: yellow;
+    text-shadow: 2px 2px black;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+#home {
+    text-align: left;
+    color: gold;
+    text-shadow: 2px 2px black;
+    margin-left: 2rem;
+}
+
+#stats {
+    margin-left: 25px;
+    color: lightgreen;
+    font-size: 2rem;
+    text-shadow: 2px 2px black;
+}
+
+#pstats {
+    margin-left: 25px;
+    color: lightskyblue;
+    font-size: 2rem;
+    text-shadow: 2px 2px black;
+}
+
+.background {
+    margin-top: 100px;
+    background-image: url("../../dwarf.png");
+    background-size: cover;
+    border-radius: 20px;
+    border: 3px solid greenyellow;
+  }
+
+.box {
+    /* background-image: url("../../parchment.jpg"); */
+    background: black;
+    opacity: 0.8;
+    border-radius: 20px;
+    background-size: cover;
+    margin: 10px;
+    height: 100%;
+    width: 350px;
+    float: right;
+    padding: 10px;
+}
+
+#value {
+    font-size: 16px;
+    text-shadow: 2px 2px black;
+    color: white;
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+#text {
+    font-size: 26px;
+    text-shadow: 2px 2px black;
+    color: rgb(0, 189, 0);
+    text-align: right;
+}

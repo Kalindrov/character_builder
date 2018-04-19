@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "name": "Torgen Flamehammer",
+      "race": "Dwarf",
+      "class": "Warrior",
+      "age": 25,
+      "home": "The Highlands",
+      "image": "background_image.png",
+      "str": 10,
+      "sta": 12,
+      "int": 10,
+      "dex": 30,
+      "agi": 18,
+      "ability1": "Smash",
+      "abilityVal1": "This ability does 25 Times Strength Value",
+      "ability2": "Overhand Swing",
+      "abilityVal2": "This ability does 25 Times Strength Value",
+      "ability3": "Concussive Strike",
+      "abilityVal3": "This ability does 25 Times Strength Value",
+      "ability4": "Weakness Exposed",
+      "abilityVal4": "This ability does 25 Times Strength Value"
+    }
+  ]

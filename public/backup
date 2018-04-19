@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>React</title>
+  <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+  <script src='https://unpkg.com/babel-standalone@6/babel.min.js'></script>
+</head>
+<!-- <style>
+  body {
+    background: black;
+    color: white;
+  }
+  .character {
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+    border: 3px solid white;
+    width: 10 rem;
+    height: 10 rem;
+    background: darkgrey;
+    color: yellowgreen;
+    font-size: 2 rem;
+    font-weight: 600;
+  }
+
+  .race {
+    margin-left: 3rem;
+    /* border: 3px solid white; */
+    box-shadow: 10px 10px solid white;
+    width: 10 rem;
+    height: 10 rem;
+    background: rgb(8, 15, 15);
+    color: red;
+    font-size: 2 rem;
+    font-weight: 600;
+  }
+  #border {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 2px 2px #888888;
+  }
+</style> -->
+<body>
+  <div id='app'></div>
+  <script type='text/babel'>
+    const name = 'John Wyatt'
+    const archtype = 'Rogue'
+    const age = 26
+    const home = 'The Wastelands'
+    const race = {
+      name: 'Hobbit',
+      str: 10,
+      sta: 12,
+      dex: 25,
+      agi: 18
+    }
+    
+
+    function CharacterComponent (props) {
+      return (
+      <div className="character">
+        <h1>Name: {props.name}</h1>
+        <h2>Class: {props.archtype}</h2>
+        <h2>Age: {props.age}</h2>
+        <h2>Home: {props.home}</h2>
+      </div>
+      )
+    }
+
+        <div className="img-container">
+          <img alt={props.name} src={props.image} />
+        </div>
+        
+    function RaceComponent (props) {
+      return (
+        <div className="race" id="border">
+          <h2>Race: {props.race.name}</h2>
+          <h3>Strength: {props.race.str}</h3>
+          <h3>Stamina: {props.race.sta}</h3>
+          <h3>Dexerity: {props.race.dex}</h3>
+          <h3>Agility: {props.race.agi}</h3>
+        </div>
+      )
+    }
+
+    function AbilityComponent (props) {
+      return (
+      <div>
+        <h2>Class Abilities:</h2>
+        <ul>
+          {props.list.map((name) => (
+            <li key={name}>
+              {name}
+            </li>
+          ))}
+        </ul>
+      </div>
+      )
+    }
+
+    function App () {
+      const abilities = ['Stab', 'Piercing Strike', 'Envenomed Blade', 'Expose Weakness']
+
+      return (
+        <div id='container'>
+          <CharacterComponent 
+          img={img}
+          name={name}
+          archtype={archtype}
+          age={age}
+          home={home}
+          />
+          <RaceComponent race={race}/>
+          <AbilityComponent list={abilities}/>
+        </div>
+      )
+    }
+
+    ReactDOM.render(
+      <App />,
+      document.getElementById('app')
+    )
+  </script> -->
+</body>
+</html>

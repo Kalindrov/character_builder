@@ -1,0 +1,12 @@
+.box {
+    background: black;
+    color: white;
+    height: 300px;
+    border: 2px solid red;
+}
+
+  .statPlate {
+      background: black;
+      margin-left: 200px;
+      color: blue;
+  }
